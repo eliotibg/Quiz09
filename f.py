@@ -10,9 +10,11 @@ def f(n):
 			c=a1+b1
 			a1=b1
 			b1=c
-		print("fibonacci de tu numero es: ",c)
+		return c
 	
 n=int(input("Dame el numero que quieres el fobonacci: "))
 f(n)
+t=f(n)
+print("El fibonacci de tu numero es: ",t)
 		
 	
